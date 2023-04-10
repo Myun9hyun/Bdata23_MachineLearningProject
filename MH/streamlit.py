@@ -12,6 +12,7 @@ import xgboost as xgb
 import seaborn as sns
 from streamlit_option_menu import option_menu
 
+st.set_page_config(page_title="Sports Too Too", page_icon=":basketball:", layout="wide")
 
 with st.sidebar:
     choice = option_menu("Contents", ["메인페이지", "데이터페이지", "시뮬레이션"],
